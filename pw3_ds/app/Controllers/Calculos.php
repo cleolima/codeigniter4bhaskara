@@ -81,7 +81,7 @@ class Calculos extends BaseController
 
     public function Delete($id)
     {
-        $calcModel = new \App\Models\UserModel();
+        $calcModel = new \App\Models\CalculosModel();
         $calcModel ->delete($id);
         
         
